@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-md-4">Video type</div>
+	<div class="col-md-4">{{ details.video_type }}</div>
+</div>
+<div class="row">
+	<div class="col-md-4">Sport</div>
+	<div class="col-md-4">{{ details.sport }}</div>
+</div>
+<div class="row">
+	<div class="col-md-4">Competition</div>
+	<div class="col-md-4">{{ details.competition }}</div>
+</div>
+<div class="row">
+	<div class="col-md-4">Participants</div>
+	<div class="col-md-4">{{ details.participants }}</div>
+</div>
+<div class="row">
+	<div class="col-md-4">Tags</div>
+	<div class="col-md-4">{{ details.tag }}</div>
+</div>
+
+{% endblock %}
+
